@@ -3,7 +3,7 @@
 
   callMyCont.$inject=['mySvc'];
   function callMyCont(mySvc){
-    MySvc();
+    mySvc();
   };
 
   function mySvc(){
