@@ -3,6 +3,7 @@
 
   callMyCont.$inject=['mySvc'];
   function callMyCont(mySvc){
+    alert("Controller");
     mySvc();
   };
 
