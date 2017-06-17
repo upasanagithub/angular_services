@@ -7,6 +7,6 @@
   };
 
   function mySvc(){
-    $scope.msg = "1st Service";
+    this.msg = "1st Service";
   };
 )();
