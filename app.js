@@ -4,9 +4,9 @@
   callMyCont.$inject('mySvc');
   function callMyCont(mySvc){
     callMySvc();
-  }
+  };
 
   function mySvc(){
     $scope.msg = "1st Service";
-  }
+  };
 )();
