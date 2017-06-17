@@ -3,10 +3,12 @@
 
   callMyCont.$inject=['mySvc'];
   function callMyCont(mySvc){
-    callMySvc();
+    MySvc();
   };
 
   function mySvc(){
+    alert("Service");
     this.msg = "1st Service";
+
   };
 )();
