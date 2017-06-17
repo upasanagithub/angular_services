@@ -1,7 +1,7 @@
 (
   angular.module('myApp',[]).controller('myCont',callMyCont).service('mySvc',mySvc);
 
-  callMyCont.$inject('mySvc');
+  callMyCont.$inject=['mySvc'];
   function callMyCont(mySvc){
     callMySvc();
   };
